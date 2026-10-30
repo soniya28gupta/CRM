@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # NexusCRM — AI-Powered Customer Relationship Management
 
 > A production-grade, multi-tenant AI CRM web platform with an information-dense enterprise architecture. Built with **Next.js 14+ (App Router)**, **FastAPI**, **SQLAlchemy**, **PostgreSQL / SQLite**, and an **LLM Copilot with strict RBAC backend tools**.
@@ -171,3 +172,6 @@ This spins up:
 ### Vercel & Render Deployment
 - **Frontend (Vercel):** Connect GitHub repo, set root directory to `frontend`, and configure `NEXT_PUBLIC_API_URL` to your production backend URL.
 - **Backend (Render / Railway):** Connect GitHub repo, set root directory to `backend`, set start command to `uvicorn app.main:app --host 0.0.0.0 --port $PORT`, and set `DATABASE_URL` to your managed PostgreSQL connection string.
+=======
+# CRM
+>>>>>>> 1fd1b994d289ef05dcd94757f49cc3b25e812e58
